@@ -5,5 +5,5 @@ function Start () {
 }
 
 function Update () {
-	transform.RotateAround (Vector3.zero, Vector3.up, 100 * Time.deltaTime);
+	transform.RotateAround (Vector3.zero, Vector3.up, 200 * Time.deltaTime);
 }
